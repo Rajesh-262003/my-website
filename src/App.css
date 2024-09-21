@@ -1,0 +1,42 @@
+body {
+  background-color:rgb(228, 234, 229);
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.notes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.note {
+  border: 2px solid #d4d4d8;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px;
+  width: 250px;
+  text-align: left;
+  background-color: #111010;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.note img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.note h2 {
+  color: #4a4a4a;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.note p {
+  color: #777;
+}
